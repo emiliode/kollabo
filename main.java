@@ -1,4 +1,4 @@
-public class main {
+public class Main {
 
   public static void main (String[] arg){
     System.out.println("Hello World");
@@ -6,5 +6,6 @@ public class main {
     System.out.println("Hallo zum 3. mal");
     System.out.println("Servus");
     // ein toller neuer Kommentar
+    //zwei tolle Kommentare
   }
 }
