@@ -6,9 +6,9 @@ public class WriteToFile {
     try {
       FileWriter myWriter = new FileWriter("Libary.txt");
       System.out.print("start:");
-      int start = Kon.readInt();
+      int start = /*1000000000000000*/Kon.readInt();
       System.out.print("ende:");
-      int ende = Kon.readInt();
+      int ende = /*10000000000000000*/Kon.readInt();
       for(int i = start;i<ende;i++){
           i++;
           myWriter.write(i + "\n");
