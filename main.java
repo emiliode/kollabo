@@ -1,6 +1,7 @@
-public class MyClass {
+public class main {
 
-  public static main (str[] arg){
+  public static void main (String[] arg){
     System.out.println("Hello World");
+    System.out.println("Hallo nochmal");
   }
 }
