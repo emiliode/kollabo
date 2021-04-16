@@ -6,7 +6,7 @@ public class WriteToFile {
     try {
       FileWriter myWriter = new FileWriter("Libary.txt");
       boolean abfrage = true;
-      int i = 1;
+      int i = 0;
         while(abfrage){
           i++;
           myWriter.write(i + "\n");
