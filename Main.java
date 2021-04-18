@@ -16,5 +16,6 @@ public class Main {
       default:
       break;
     }
+    mySc.close();
   }
 }
