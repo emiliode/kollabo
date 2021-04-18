@@ -1,10 +1,11 @@
+import java.util.Scanner;
 public class Main {
 
   public static void main (String[] args){
-    // switch 
+    Scanner mySc = new Scanner(System.in);
     System.out.println("Hello World");
     System.out.println("Wer kann das lesen?");
-    String auswahl = Kon.readString();
+    String auswahl = mySc.nextLine();
     switch (auswahl) {
       case "Joshua":
       case "joshua":
