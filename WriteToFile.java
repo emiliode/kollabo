@@ -9,7 +9,7 @@ public class WriteToFile {
       System.out.print("start:" + start);
       long ende  = 10000000000000000;
       System.out.print("ende:" + ende);
-      for(int i = start;i<ende;i++){
+      for(long i = start;i<ende;i++){
           myWriter.write(i + "\n");
           }
       myWriter.close();
