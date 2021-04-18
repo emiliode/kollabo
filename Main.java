@@ -5,17 +5,8 @@ public class Main {
     Scanner mySc = new Scanner(System.in);
     System.out.println("Hello World");
     System.out.println("Wer kann das lesen?");
-    String auswahl = mySc.nextLine();
-    switch (auswahl) {
-      case "Joshua":
-      case "joshua":
-        break;
-      case "Emil":
-      case "emil":
-        break;
-      default:
-      break;
-    }
+    String eingabe = mySc.nextLine();
+    System.out.println("Hallo " + eingabe);
     mySc.close();
   }
 }
