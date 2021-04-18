@@ -7,7 +7,7 @@ public class WriteToFile {
       FileWriter myWriter = new FileWriter("Libary.txt");
       long start = 1000000000000000;
       System.out.print("start:" + start);
-      long ende  = 1000000000000001;
+      long ende  = 10000000000000000;
       System.out.print("ende:" + ende);
       for(int i = start;i<ende;i++){
           myWriter.write(i + "\n");
