@@ -1,14 +1,12 @@
 import java.io.FileWriter;   // Import the FileWriter class
 import java.io.IOException;  // Import the IOException class to handle errors
-import java.util.Scanner;
 public class WriteToFile {
   public static void main(String[] args) {
-    Scanner mySc = new Scanner(System.in);
     try {
       FileWriter myWriter = new FileWriter("Libary.txt");
       long start = 10000000/*00000000*/;
       System.out.print("start:" + start);
-      long ende  = 10000000/*000000000*/;
+      long ende  = 1000000000/*000000000*/;
       System.out.print("ende:" + ende);
       for(long i = start;i<ende;i++){
           myWriter.write(i + "\n");
@@ -19,6 +17,5 @@ public class WriteToFile {
       System.out.println("An error occurred.");
       e.printStackTrace();
     }
-    mySc.close();
   }
 }
