@@ -49,7 +49,7 @@ public class Ghost {
         Scanner myScanner = new Scanner(System.in);                                         //# #    #
         int N = Integer.parseInt(myScanner.nextLine());                                     //# # ## #
         String[]map=new String[N];                                                          //# #  #G#
-        for(int i = 0; i<map.length; i++){                                                  //    P###
+        for(int i = 0; i<map.length; i++){                                                  //#   P###
             map[i]=myScanner.nextLine();                                                    //#### # #
         }                                                                                   //#G   #G# 
         char[][] chMap = new char[map.length][];                                            //########
